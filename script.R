@@ -37,18 +37,5 @@ boxplot(lnorm.sr)
 qqnorm(lnorm.sr)
 qqline(lnorm.sr)
 
-# cube-root transformation
 
-lnorm.cr <- lnorm.data^(1/3) 
-hist(lnorm.cr)
-boxplot(lnorm.cr)
-qqnorm(lnorm.cr)
-qqline(lnorm.cr)
 
-# natural-log transformation
-
-lnorm.log <- log(lnorm.data)
-hist(lnorm.log)
-boxplot(lnorm.log)
-qqnorm(lnorm.log)
-qqline(lnorm.log)
