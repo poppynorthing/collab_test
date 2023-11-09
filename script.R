@@ -34,8 +34,8 @@ qqline(lnorm.data)
 lnorm.sr <- sqrt(lnorm.data)   # or lnorm.data^(1/2)
 hist(lnorm.sr)
 boxplot(lnorm.sr)
-qqnorm(lnorm.sr)
+qqnorm(lnorm.sr)f
 qqline(lnorm.sr)
 
 
-
+#POPPY'S CHANGE TO RAYMOND'S BRANCH
